@@ -16,13 +16,13 @@ setup(
     install_requires=[
         "coremltools>=7.0b1",
         "diffusers[torch]",
-        "torch",
+        "torch==2.0.0",
         "transformers==4.29.2",
         "huggingface-hub",
         "scipy",
         "numpy<1.24",
         "pytest",
-        "scikit-learn",
+        "scikit-learn==1.1.2",
     ],
     packages=find_packages(),
     classifiers=[

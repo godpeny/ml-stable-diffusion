@@ -5,7 +5,7 @@
 
 import argparse
 
-from diffusers.pipeline_utils import DiffusionPipeline
+from diffusers.pipelines.pipeline_utils import DiffusionPipeline
 from diffusers.pipelines.stable_diffusion import StableDiffusionPipelineOutput
 from diffusers.schedulers import (
     DDIMScheduler,
